@@ -10,9 +10,15 @@ public class MainActivity extends AppCompatActivity {
 
     TextView txt;
     Button btn;
+    private int count=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        txt=(TextView)findViewById(R.id.textView);
+        btn=(Button)findViewById(R.id.button);
+        
+
     }
 }
