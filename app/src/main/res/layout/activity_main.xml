@@ -23,6 +23,16 @@
         android:text="TextView"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="151dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="277dp"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif"
+        android:text="Counter App"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="36dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
