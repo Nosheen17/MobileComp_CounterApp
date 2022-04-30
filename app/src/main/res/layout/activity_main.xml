@@ -21,15 +21,20 @@
         android:layout_width="109dp"
         android:layout_height="67dp"
         android:layout_marginTop="164dp"
-        android:text="TextView"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="151dp" />
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="277dp"
-        android:layout_height="43dp"
+        android:layout_width="222dp"
+        android:layout_height="51dp"
+        android:background="@color/purple_700"
         android:fontFamily="sans-serif"
         android:text="Counter App"
+        android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="103dp"
